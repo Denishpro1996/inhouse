@@ -1,0 +1,8 @@
+.employee_details{
+    height:78vh;
+    width: 30vw;
+    border: 2px solid white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

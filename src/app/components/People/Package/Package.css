@@ -1,0 +1,16 @@
+.package_main_form{
+    height: auto;
+    width: 77vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.package_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save_btn_div{
+    width: 12%;
+}

@@ -1,0 +1,49 @@
+/* .AttendanceCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.attendance .muiltr-qynf74-MuiPaper-root-MuiCard-root{
+    width:200px  ;
+    background-color: #1d1d1d;
+    box-shadow: 0.5px 0.5px 10px grey;
+    margin-left: 1rem;
+    border: 2px solid white;
+    overflow: scroll;
+}
+.attendance_card{
+    box-shadow: 2px 2px 5px grey;
+    margin: 1rem;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.attendance .muiltr-46bh2p-MuiCardContent-root{
+    text-align: center;
+}
+.attendance   .muiltr-75xr4u-MuiTypography-root{
+    text-align: left;
+}
+.attendance .muiltr-e53awj-MuiStack-root{
+    justify-content: center;
+}
+
+.attendance .MuiCardActions-root {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.attendance .MuiButton-root {
+    width: 50%;
+    color: #ffff;
+} 
+.attendance >.MuiButton-root  :hover{
+    color: white;
+    background-color: #1d1d1d;
+} 
+.attendance .muiltr-1mvquz-MuiTypography-root{
+    margin-top: 2rem;
+ }
+ .attendance a{
+    text-decoration: none !important;
+ }
+  */

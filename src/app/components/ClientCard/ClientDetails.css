@@ -1,0 +1,74 @@
+.clintCardDetailsContainer{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clintInnerDetailsContainer{    
+    width:80%;
+    height:90%;
+}
+.closebtn_container{
+    width:80%;
+    display: flex;
+    justify-content: end;
+}
+
+.PhotoValaContainer{
+    display: flex;
+}
+.clinetkafullname{
+    margin:10px; 
+}
+.gmaileSkypervalaContainer{
+    margin-top:30px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left_Side_Container1{
+    width:70%;
+}
+.left_Side_Container2{
+    width:70%;
+    margin-top:10px;
+}
+.right_Side_Container2{
+    width:30%;
+    margin-top:10px;
+}
+.right_Side_Container1{
+    width:30%;      
+}
+.compneyDetails_inner{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top:10px;
+}
+.LBH{
+    height:75px;
+    width:170px; 
+    border:2px solid white;
+    background-color:rgb(54,55,65);
+}
+.compneyDetails_inner_left_side{
+    width:60%;
+}
+.compneyDetails_inner_right_side{
+    width:40%;
+}
+.first_layer{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top:20px;
+}
+.websitelinkvalaContainer_phone{
+    margin-top:10px;
+}
+.websitelinkvalaContainer_website{
+    margin-top:10px;
+}

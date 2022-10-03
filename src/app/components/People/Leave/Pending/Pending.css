@@ -1,0 +1,211 @@
+.pending_partent{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.pending_child{
+    width:70%;
+    display: flex;
+    border-radius: 0.625rem;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.leaveappp_container_parent{
+    height: 100%;
+    width: auto;
+    margin-left: 3.5rem;
+    border: 0.2rem solid black;
+    border-radius: 0.625rem;
+}
+.leave_reason_container{
+    margin-top: 2rem;
+    width: 50%;
+
+
+}
+.avtar_employeedetails{ 
+    display: flex;
+    border-radius: 0.625rem;
+    align-items: center;
+    background-color: rgb(54,55,65);
+}
+.pending_ul{
+    display: flex;
+}
+.pending_ul li{
+    padding:0 10px;
+}
+.On_leave{
+    width: 20%;
+    height: 100%;
+    border: 0.2rem solid black;
+    border-radius: 0.625rem;
+    height: 75vh;
+    overflow: auto;
+    margin-top: 2rem;
+}
+.pending_avtar{
+    margin: 10px;
+}
+.pending_epmloyee_details{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.pending_epmloyee_details h2{
+    padding: 0 10px;
+}
+
+.start_month{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+._to{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month_selector{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+}
+.month_slider{
+    display: flex;
+}
+._month{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid white;
+    width: 5rem ;
+}
+._pending_arrow{
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+._pending_arrow:hover{
+    color: black;
+    background-color: white;
+}
+.leave_rsn_parent{
+    height:30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leave_rsn_child{
+    width: 90%;
+    border: 0.0625rem solid #fff;
+    height: 100%;
+}
+.leave_header{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid grey;
+}
+.leave{
+    width: 50%;
+}
+.date{
+    width: 50%;
+    text-align: right;
+}
+.leave_reason{
+    padding: 5px;
+}
+.buttons_{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;    
+}
+._pending_btn1{
+    border: none;
+    border-radius:5px;
+    background-color: rgb(30,29,30);
+    border: 0.0625rem solid #fff;
+    font-weight: bold;
+}
+._pending_btn1:hover{
+    color: black !important;
+    font-weight: bold;
+}
+
+._pending_btn2{
+    border: none;
+    border-radius:5px;
+    font-weight: bold;
+    color: black;
+}
+._pending_btn2:hover{
+    background-color: rgb(30,29,30) ;
+    border: 0.0625rem solid white;
+    color: white;
+}
+._onleave_header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(54,55,65);
+    border-radius: 0.625rem;
+}
+._onleavrheader_child{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+._onleavrheader_child h3{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._pc{
+    display: flex;
+    width: 90%;
+}
+._userLogo{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._todayleave_child{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100%;
+    align-items:flex-start;
+}
+._todayleave_employeedetail{
+    margin: 10px;
+}
+._todayleave_parent_{
+    margin: 10px; 
+}
+.month_text{
+    margin-left: 10px; 
+    font-size: 12px;
+
+}
+.today_onleave_parent{
+    margin-top: 2rem;
+}

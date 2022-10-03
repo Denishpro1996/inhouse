@@ -1,0 +1,89 @@
+*{
+    text-decoration: none;
+}
+.ultra_main_card_components{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:22%;
+}
+
+.main_card_components{    
+    height:26rem;   
+    width:22rem;  
+    border:2px solid white;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}   
+.card_left{
+    width:40%;
+    display: flex;
+    justify-content: start;    
+}
+.card_right{
+    width:50%;
+    display: flex;
+    justify-content: end;
+}
+.card_header_components{    
+    display: flex;
+   justify-content: center;
+}
+.card_body_components{
+    display: flex;
+    justify-content: center ;
+    margin-top:1.5rem;    
+}
+.card_clint_image{
+    display: flex;
+    justify-content: center;
+}
+.card_clint_name{
+    display: flex;
+    justify-content: center;
+    margin-top:0.5rem;
+}
+.card_clint_email{
+    display: flex;  
+    justify-content: center;
+    margin-top:2.5rem;
+}
+.card_clint_phone{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem,;
+}
+.round{
+    height: 9rem;
+    width:9rem; 
+    border-radius: 50%;
+    background-color:rgb(54,55,65)  ;
+}
+a{
+    color:white;
+}
+#link{
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+.Client_parent{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+.Client_parent::-webkit-scrollbar{
+    display: none;
+}
+.client_clild{
+    display: flex;
+    width: 95%;
+    overflow:auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

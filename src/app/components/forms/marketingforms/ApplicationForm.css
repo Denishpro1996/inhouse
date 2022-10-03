@@ -1,0 +1,118 @@
+
+.form_nav_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+.application_header_savebtn{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.save_btn_div a{
+    text-decoration: none !important;
+}
+.navmain{
+    width: 100%;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.modual_submain{
+    width: 91%;
+    background-color: rgb(54,55,65);
+    border-radius: .625rem;
+    padding: 0.5rem;
+}
+.form_modual_nav{
+    width: 50%;
+}
+.li_nk{
+    text-decoration: none !important;
+    border-radius: 0.625rem;
+}
+.app_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.app_form_subdiv{
+    
+    width: 90%;
+}
+.application_basic_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:2.5rem;
+    background-color:rgb(54,55,65);
+    border-radius: 0.625rem;
+}
+.client{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:2.5rem;
+}
+.input_textfield{
+     width: 24vw !important;
+     background-color:rgb(54,55,65) ;
+}                    
+.input_textfield:focus{
+    border: .0625rem solid white !important;
+}  
+.basic_input_fields{
+    margin-right: 0.00625rem;
+    margin-bottom: 0.625rem;
+}
+.basic_input_fields span{
+    color:red;
+}
+  /* ===============================Upload Document============================ */
+  .document_upload_parent{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .document_upload_child{
+    width: 70%;
+    height: 100%;
+    border: 2px solid white;
+  }
+  .document_upload_header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(54,55,65);
+    display: flex;
+    align-items: center;
+  }
+  .__Error__{
+    color: red;
+  }
+  .uploading_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_container{
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+  }
+  .drag_drop_imagecontainer{
+    width: 50%;
+    height: 100%;
+    border: 2px solid blue;
+  }
+  .__error__{
+    color: red;
+    font-size: 14px;
+  }

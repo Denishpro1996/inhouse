@@ -1,0 +1,38 @@
+.inquiry_form_main{
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+.inquiry_form_sub{
+    width: 94.8%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54,55,65);
+}
+.form_save{
+    border: 2px solid  white;
+}
+.inquiry_fields{
+    width:100%;
+    border: 2px solid white;
+}
+.PhoneInput{
+    color: grey;
+    border: 1px solid grey;
+    margin-top: 8px;
+    border-radius: 0.5rem;
+    margin-left: 8px;
+}
+
+::-webkit-input-placeholder{
+    background: transparent;
+}
+
+.PhoneInputInput{
+    background: transparent;
+    border-left: 1px solid grey;
+    height: 6vh ;
+    padding: 0 15px;
+}

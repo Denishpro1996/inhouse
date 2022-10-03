@@ -1,0 +1,260 @@
+/* logo and toggle bar from NavbarStyle1Content.js */
+.logo_main {
+  justify-content: space-between;
+}
+.logo_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+/* ----------------Marketing  header and NAV--------------------*/
+.marketing {
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+}
+.marketing_nav {
+  width: 100%;
+  padding: 1.5rem;
+}
+.marketing_h1 {
+  color: #f2f2f2;
+}
+.marketing_nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.marketing_nav > ul > li {
+  font-weight: bolder;
+  color: #bcbcc0;
+}
+
+.marketing_nav_li > li {
+  font-weight: bolder;
+  color: #bcbcc0;
+}
+.marketing_nav_li > li > button:focus {
+  border-bottom: 0.125rem solid #f2f2f2;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+/* ------------------------------Application.js------------------------------ */
+.app_addnew_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+.application_nav_btn {
+  width: 94.8%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: rgb(54, 55, 65);
+  border-radius: 0.625rem;
+}
+.marketing_nav_main {
+  width: 100%;
+}
+.marketing_nav_compo {
+  width: 50%;
+}
+.marketing_nav_btn {
+  width: 12%;
+  text-align: center;
+}
+.marketing_nav_btn #add_new_text {
+  color: rgb(54, 55, 65);
+  text-decoration: none;
+}
+/*==================ApplicationTable.js=====================*/
+.appTable {
+  color: #f2f2f2;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: auto;
+  border-radius: 0.625rem;
+}
+.app_table {
+  width: 97.5%;
+  height: 100%;
+  background-color: rgb(54, 55, 65);
+  border-radius: 0.625rem;
+}
+
+.app_table tr {
+  display: flex;
+  border: 0.001rem solid grey;
+}
+.delete_icon:hover {
+  transform: scale(0.9, 0.9);
+}
+.table_row {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(54, 55, 65);
+  border-radius: 0.625rem;
+  width: 100%;
+}
+
+.tr_row {
+  background-color: rgb(54, 55, 65);
+  border-radius: 0.625rem;
+  width: 100%;
+}
+
+.table_row th td {
+  width: 15%;
+  height: 100%;
+}
+
+.tr_row td {
+  width: 15%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+.appTable th {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.MuiTabs-flexContainer {
+  background-color: rgb(54, 55, 65);
+}
+.abc .w-full {
+  border: none;
+}
+
+/* Add New Button */
+.add_new {
+  background-color: #ffffff!important;
+  color: rgb(54, 55, 65) !important;
+  border: 0.00625rem solid rgb(54, 55, 65) !important ;
+}
+.add_new:hover{
+  color: #ffffff !important;
+  background-color: rgb(54, 55, 65) !important;
+  border: 0.00625rem solid #ffffff !important;
+}
+
+._tabs_btn {
+  width: 100%;
+  border: 2px solid orangered;
+  display: flex;
+}
+._tabs {
+  width: 50%;
+  border: 2px solid blue;
+}
+.addnew_btn {
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: end;
+}
+._tabs_btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.addnew_btn {
+  display: flex;
+  float: right;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+.addnew_btn .MuiButton-root {
+  margin-right: 4em;
+}
+.add_new_btn {
+  margin-right: 2.5rem;
+  border: 2px solid white;
+}
+/* searchbar */
+.search_icon {
+  font-size: 1.8rem;
+  color: black;
+  margin-right: 1rem;
+}
+.search_bar_field {
+  height: 100%;
+  width: 38rem;
+  border-radius: 0.625rem;
+}
+.header_searchbar {
+  border-radius: 0.625rem;
+  margin-right: 1rem;
+}
+/* add new btn */
+.add_new {
+  border-radius: 0.625rem;
+  color: rgb(54, 55, 65);
+  background-color: #ffffff;
+}
+.add_new:hover {
+  border-radius: 0.625rem;
+  color: rgb(54, 55, 65);
+  border: 0.0625rem solid #ffffff;
+  background-color: rgb(54, 55, 65);
+  color: #ffffff;
+}
+
+/* Save Button */
+.save_btn_div {
+  width: 12%;
+}
+
+.save_btn {
+  width: 100%;
+  border-radius: 0.625rem;
+  color: rgb(54, 55, 65);
+  background-color: #ffffff;
+  border: none;
+  border: 0.00625rem solid rgb(54, 55, 65) !important;  
+
+}
+.save_btn:hover {
+  width: 100% !important;
+  border-radius: 0.625rem !important;
+  background-color: rgb(54, 55, 65) !;
+  border: 0.00625rem solid #ffffff !important;  
+  color: #ffffff ;
+  
+}
+/* .xyz{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+/* ===========Form Text Lables =========*/
+
+.field_lable {
+  margin-left: 0.8rem;
+}
+.field_lable span {
+  color: red;
+}

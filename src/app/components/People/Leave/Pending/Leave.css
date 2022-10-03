@@ -1,0 +1,18 @@
+/* TABS */
+.leave_compo .MuiTabs-scroller{
+    border-radius: 0.625rem;
+    background-color: rgb(32,31,33);
+    margin: 0 25px;
+}
+.leave_compo .MuiTabs-indicator{
+    color: white;
+}
+/* .leave_compo .MuiButtonBase-root{
+    color: rgb(66,66,67) !important;
+}
+.leave_compo .MuiButtonBase-root:focus{
+    color: #fff !important;
+} */
+.leave_compo .MuiTabs-root{
+    border: none !important;
+}
